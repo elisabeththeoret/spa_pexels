@@ -1,0 +1,108 @@
+/* ---------- BASE ---------- */
+.icon {
+    min-width: 20px;
+    min-height: 20px;
+    object-fit: cover;
+}
+
+.icon {
+    mask-size: contain;
+    -webkit-mask-size: contain;
+    mask-position: center;
+    -webkit-mask-position: center;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+}
+
+/* ---------- MASQUES ---------- */
+/* Icone : Image */
+.icon[data-icone="image"] {
+    mask-image: url("/static/img/image-solid.svg");
+    -webkit-mask-image: url("/static/img/image-solid.svg");
+}
+
+/* Icone : Vidéo */
+.icon[data-icone="video"] {
+    mask-image: url("/static/img/video-solid.svg");
+    -webkit-mask-image: url("/static/img/video-solid.svg");
+}
+
+/* Icone : Collection */
+.icon[data-icone="collection"] {
+    mask-image: url("/static/img/layer-group-solid.svg");
+    -webkit-mask-image: url("/static/img/layer-group-solid.svg");
+}
+
+/* Icone : Flèche */
+.icon[data-icone="fleche-droite"] {
+    mask-image: url("/static/img/angles-right-solid.svg");
+    -webkit-mask-image: url("/static/img/angles-right-solid.svg");
+}
+
+/* ---------- COLORS ---------- */
+/* Couleur : Orange */
+.icon[data-couleur="orange"] {
+    background-color: var(--orange);
+}
+
+/* Couleur : Lightorange */
+.icon[data-couleur="lightorange"] {
+    background-color: var(--lightorange);
+}
+
+/* Couleur : Green */
+.icon[data-couleur="green"] {
+    background-color: var(--green);
+}
+
+/* Couleur : Lightgreen */
+.icon[data-couleur="lightgreen"] {
+    background-color: var(--lightgreen);
+}
+
+/* Couleur : White */
+.icon[data-couleur="white"] {
+    background-color: var(--white);
+}
+
+/* Couleur : Black */
+.icon[data-couleur="black"] {
+    background-color: var(--black);
+}
+
+/* ---------- HOVER COLORS ---------- */
+/* Survol : Orange */
+a:hover > .icon[data-hover="orange"],
+button:hover > .icon[data-hover="orange"] {
+    background-color: var(--orange);
+}
+
+/* Survol : Lightorange */
+a:hover > .icon[data-hover="lightorange"],
+button:hover > .icon[data-hover="lightorange"] {
+    background-color: var(--lightorange);
+}
+
+/* Survol : Green */
+a:hover > .icon[data-hover="green"],
+button:hover > .icon[data-hover="green"] {
+    background-color: var(--green);
+}
+
+/* Survol : Lightgreen */
+a:hover > .icon[data-hover="lightgreen"],
+button:hover > .icon[data-hover="lightgreen"] {
+    background-color: var(--lightgreen);
+}
+
+/* Survol : White */
+a:hover > .icon[data-hover="white"],
+button:hover > .icon[data-hover="white"] {
+    background-color: var(--white);
+}
+
+/* Survol : Black */
+a:hover > .icon[data-hover="black"],
+button:hover > .icon[data-hover="black"] {
+    background-color: var(--black);
+}

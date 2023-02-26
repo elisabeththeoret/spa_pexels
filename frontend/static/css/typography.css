@@ -1,0 +1,34 @@
+/* ---------- VARIABLES ---------- */
+html {
+    --font-museo: 'MuseoModerno', cursive;
+    --font-bitter: 'Bitter', serif;
+}
+
+
+/* ---------- FONT FAMILY ---------- */
+html {
+    font-family: var(--font-bitter);
+}
+
+h1, h2 {
+    font-family: var(--font-museo);
+}
+
+p, a, button, small, span {
+    font-family: inherit;
+}
+
+/* ---------- FONT SIZE, WEIGHT, LINE HEIGHT ---------- */
+h1 {
+    font-size: 4.5em;
+}
+
+h2 {
+    font-size: 2em;
+    line-height: 1;
+}
+
+/* ---------- AUTRES ---------- */
+p {
+    max-width: 70ch;
+}

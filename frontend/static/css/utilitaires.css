@@ -1,0 +1,17 @@
+/* ---------- FLEX ---------- */
+.flex {
+    display: flex;
+    gap: 40px;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.flex.egal > * {
+    flex: 1;
+}

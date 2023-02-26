@@ -1,0 +1,95 @@
+/* ---------- VARIABLES ---------- */
+html {
+    --orange: #f89626;
+    --lightorange: #f6d4ac;
+    --green: #07A081;
+    --lightgreen: #8FD9C4;
+    --black: #202020;
+    --white: #ffffff;
+    
+    --green_rgba: #035646cc;
+}
+
+/* ---------- BASE - HERITAGE ---------- */
+a, button, form, label, input, textarea, select {
+    color: inherit;
+}
+
+
+/* ---------- COLOR CLASS ---------- */
+.texte-orange {
+    color: var(--orange);
+}
+.texte-lightorange {
+    color: var(--lightorange);
+}
+.texte-green {
+    color: var(--green);
+}
+.texte-lightgreen {
+    color: var(--lightgreen);
+}
+.texte-black {
+    color: var(--black);
+}
+.texte-white {
+    color: var(--white);
+}
+
+.texte-hover-orange:hover {
+    color: var(--orange) !important;
+}
+.texte-hover-lightorange:hover {
+    color: var(--lightorange) !important;
+}
+.texte-hover-green:hover {
+    color: var(--green) !important;
+}
+.texte-hover-lightgreen:hover {
+    color: var(--lightgreen) !important;
+}
+.texte-hover-black:hover {
+    color: var(--black) !important;
+}
+.texte-hover-white:hover {
+    color: var(--white) !important;
+}
+
+/* ---------- BACKGROUND COLOR CLASS ---------- */
+.bg-orange {
+    background-color: var(--orange);
+}
+.bg-lightorange {
+    background-color: var(--lightorange);
+}
+.bg-green {
+    background-color: var(--green);
+}
+.bg-lightgreen {
+    background-color: var(--lightgreen);
+}
+.bg-black {
+    background-color: var(--black);
+}
+.bg-white {
+    background-color: var(--white);
+}
+
+.bg-hover-orange:hover {
+    background-color: var(--orange) !important;
+}
+.bg-hover-lightorange:hover {
+    background-color: var(--lightorange) !important;
+}
+.bg-hover-green:hover {
+    background-color: var(--green) !important;
+}
+.bg-hover-lightgreen:hover {
+    background-color: var(--lightgreen) !important;
+}
+.bg-hover-black:hover {
+    background-color: var(--black) !important;
+}
+.bg-hover-white:hover {
+    background-color: var(--white) !important;
+}
