@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA Pexels</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="/static/css/main.css">
+</head>
+<body>
+    <header class="flex row bg-black texte-white">
+        <nav class="flex row nav-principale">
+            <a href="/" data-link class="logo btn texte-lightorange texte-hover-black">SPA Pexels</a>
+            <a href="/image?page=1" data-link class="btn">Images</a>
+            <a href="/video?page=1" data-link class="btn">Videos</a>
+            <a href="/collection?page=1" data-link class="btn">Collections</a>
+        </nav>
+        
+        <!-- Attribution -->
+        <div class="flex row attr">
+            <small class="texte-lightgreen">Medias provided by</small>
+            <a href="https://www.pexels.com" target="_blank" class="flex row"><img src="https://images.pexels.com/lib/api/pexels-white.png" alt="Logo officiel du site Pexels"></a>
+        </div>
+    </header>
+    
+    <div id="app" class="flex col"></div>
+    
+    <footer class="flex col">
+        <small class="texte-black">&copy; 2023 Elisabeth Theoret - Tous droits réservés</small>
+    </footer>
+    
+    <script type="module" src="/static/js/index.js"></script>
+</body>
+</html>
