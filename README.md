@@ -7,7 +7,7 @@ Une 'Single-page Application' d'un API basée sur Pexels (https://www.pexels.com
 ## Description du projet 
 
 Cette application permet de naviguer au travers des banques d'images et de vidéos de Pexels. 
-En utilisant la naviguation, il est possible de voir la page montrant des choix d'images ou celle montrant des choix de vidéos. 
+En utilisant la navigation, il est possible de voir la page montrant des choix d'images ou celle montrant des choix de vidéos. 
 
 Pour voir plus d'informations sur une image ou une vidéo, il suffit de cliquer sur celle-ci et sa page s'affichera. 
 
